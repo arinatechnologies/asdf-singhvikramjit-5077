@@ -1,0 +1,22 @@
+[
+  "modern residential building exterior with floor-to-ceiling windows",
+  "sustainable office interior with green walls and natural lighting",
+  "historic building renovation showing original and modern elements",
+  "urban park landscape design with walking paths and water features",
+  "minimalist home interior with clean lines and neutral palette",
+  "commercial skyscraper facade with innovative shading system",
+  "bridge engineering project showing structural details",
+  "architectural scale model with precise detailing",
+  "innovative public space with interactive installations",
+  "futuristic city concept with vertical gardens and smart infrastructure",
+  "construction site overview showing advanced building techniques",
+  "sustainable building materials close-up with texture details",
+  "luxury penthouse interior with panoramic city views",
+  "community center design with multipurpose spaces",
+  "adaptive reuse project transforming industrial space",
+  "high-tech smart home control panel integration",
+  "biophilic design office space with natural elements",
+  "mixed-use development aerial view",
+  "cultural center with distinctive architectural form",
+  "residential rooftop garden with cityscape background"
+]
