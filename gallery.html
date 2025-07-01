@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+            <html lang="en">
+            <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>asdfsa | Gallery</title>
+            <link rel="stylesheet" href="css/base.css" />
+            <link rel="stylesheet" href="css/gallery.css" />
+            </head>
+            <body>
+            <header class="site-header">
+  <div class="header-container">
+    <a href="index.html" class="logo">asdfsa</a>
+    
+    <button class="menu-toggle" aria-label="Toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+    
+    <nav class="main-nav">
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+            <main>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>asdf Showcase</h1>
+      <p class="subhead">Where precision meets innovation in every project</p>
+    </div>
+  </section>
+
+  <!-- Filter Controls -->
+  <section class="filter-controls">
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-category="all">All Projects</button>
+      <button class="filter-btn" data-category="residential">Residential</button>
+      <button class="filter-btn" data-category="commercial">Commercial</button>
+      <button class="filter-btn" data-category="sustainable">Sustainable</button>
+      <button class="filter-btn" data-category="renovation">Renovation</button>
+    </div>
+  </section>
+
+  <!-- Gallery Grid -->
+  <section class="gallery-grid">
+    <div class="grid-container">
+      <!-- Project 1 -->
+      <a href="#project-1" class="grid-item residential" data-project="project-1">
+        <img src="images/gallery1.jpg" alt="Modern residential building">
+        <div class="project-overlay">
+          <h3>Hilltop Residence</h3>
+          <p>Contemporary home with panoramic views</p>
+        </div>
+      </a>
+      
+      <!-- Project 2 -->
+      <a href="#project-2" class="grid-item commercial" data-project="project-2">
+        <img src="images/gallery2.jpg" alt="Commercial office space">
+        <div class="project-overlay">
+          <h3>Urban Office Tower</h3>
+          <p>LEED-certified commercial complex</p>
+        </div>
+      </a>
+      
+      <!-- Additional projects (3-12) -->
+      <a href="#project-3" class="grid-item sustainable" data-project="project-3">
+        <img src="images/gallery3.jpg" alt="Sustainable building">
+        <div class="project-overlay">
+          <h3>Eco Campus</h3>
+          <p>Net-zero energy educational facility</p>
+        </div>
+      </a>
+      
+      <!-- Projects 4-12 would follow same pattern with different categories -->
+    </div>
+    
+    <button class="load-more-btn">Load More Projects</button>
+  </section>
+
+  <!-- Project Modal (hidden by default) -->
+  <div class="project-modal" id="project-modal">
+    <div class="modal-content">
+      <button class="close-modal">&times;</button>
+      <div class="modal-body">
+        <!-- Content populated by JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials">
+    <h2>Trusted by Industry Leaders</h2>
+    <div class="testimonial-grid">
+      <div class="testimonial">
+        <i class="ph ph-building"></i>
+        <blockquote>
+          "asdfsa delivered beyond our expectations with their innovative approach."
+        </blockquote>
+        <cite>— Global Structures Inc.</cite>
+      </div>
+      <div class="testimonial">
+        <i class="ph ph-house"></i>
+        <blockquote>
+          "The attention to detail in our residential project was remarkable."
+        </blockquote>
+        <cite>— Heritage Homes</cite>
+      </div>
+      <div class="testimonial">
+        <i class="ph ph-leaf"></i>
+        <blockquote>
+          "Their sustainable solutions reduced our carbon footprint by 40%."
+        </blockquote>
+        <cite>— Green Future Co.</cite>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <h2>Ready to start your project?</h2>
+    <p>Our team is ready to bring your vision to life with the same precision showcased here.</p>
+    <div class="cta-buttons">
+      <a href="/contact" class="cta-btn primary">Get a Quote</a>
+      <a href="/portfolio" class="cta-btn secondary">View Full Portfolio</a>
+    </div>
+  </section>
+</main>
+
+<!-- External Resources -->
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/gallery.css">
+<script src="js/base.js"></script>
+<script src="js/gallery.js"></script>
+
+            <footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-grid">
+      <div class="footer-logo">
+        <a href="index.html" class="logo">asdfsa</a>
+      </div>
+      
+      <div class="footer-links">
+        <ul class="footer-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-social">
+        <ul class="social-links">
+          <li><a href="#" aria-label="Facebook">Facebook</a></li>
+          <li><a href="#" aria-label="Instagram">Instagram</a></li>
+          <li><a href="#" aria-label="LinkedIn">LinkedIn</a></li>
+          <li><a href="#" aria-label="Twitter">Twitter</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-legal">
+        <p class="copyright">&copy; 2023 asdfsa. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+            <script src="js/base.js"></script>
+            <script src="js/gallery.js"></script>
+            </body>
+            </html>
+            
